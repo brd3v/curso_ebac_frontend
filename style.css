@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form , p{
+    padding-top: 3rem;
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    
+
+}
+input{
+    height: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+button{
+    height: 5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+}
+p{
+    text-align: center;
+    padding: 3rem;
+}
