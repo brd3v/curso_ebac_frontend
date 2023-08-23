@@ -12,7 +12,7 @@ btn.addEventListener('click', function(e ){
             r.innerHTML = 'o numero b deve ser maior'
 
         } else if (b >a){
-            r.innerHTML = 'parabéns numero a maior que o b'
+            r.innerHTML = 'parabéns numero a menor que o b'
         }else{
             r.innerHTML = 'o seu numero b deve ser maior que o a'
         }
