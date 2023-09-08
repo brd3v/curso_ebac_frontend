@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto. no serif;
+
+}
+
+header{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    font-weight: italic;
+    font-size: 20px;
+}
